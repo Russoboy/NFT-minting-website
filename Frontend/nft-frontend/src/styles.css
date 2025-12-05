@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding/borders are included in element's total width/height */
+}
+
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 50px;
+  /* text-align: center; */
+  /* padding: 50px; */
 }
 
 button {
@@ -17,7 +23,7 @@ input {
 
 /* Navbar.css */
 nav {
-  background-color: #1e1e2f;  /* Dark theme */
+  background-color: #4242fa;  /* Dark theme */
   padding: 1rem 2rem;
   display: flex;
   justify-content: center;   /* Center the links */

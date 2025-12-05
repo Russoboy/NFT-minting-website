@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar"
 const App = () => {
   return (
     <div className="app">
-      <h1 className="NFT-brand-name">OpulentMint</h1>
       <Navbar />
+            <h1 className="NFT-brand-name">OpulentMint</h1>
       {/* <MintNFT /> */}
     </div>
   );

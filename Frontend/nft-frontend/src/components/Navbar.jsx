@@ -15,7 +15,9 @@ const  Navbar = () =>{
         <li>Mint NFT</li>
         <li>Collections</li>
         <li>About/Docs</li>
+         {/* <button>Connect Wallet</button> */}
       </ul>
+     
     </nav>
     )
 }
