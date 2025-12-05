@@ -23,10 +23,12 @@ input {
 
 /* Navbar.css */
 nav {
+  margin: 0.5rem;
   background-color: #4242fa;  /* Dark theme */
   padding: 1rem 2rem;
   display: flex;
   justify-content: center;   /* Center the links */
+  border-radius: 1rem;
 }
 
 nav ul {
