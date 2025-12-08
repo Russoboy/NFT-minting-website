@@ -1,0 +1,58 @@
+.collections {
+  padding: 80px 6%;
+  background: #0b0b10;
+  color: #fff;
+}
+
+.coll-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.coll-desc {
+  margin-top: 8px;
+  color: #bbb;
+  font-size: 15px;
+}
+
+.coll-grid {
+  margin-top: 40px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.coll-card {
+  background: #15151d;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.35s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.coll-card:hover {
+  transform: translateY(-8px);
+  border-color: #a06cf7;
+  box-shadow: 0 0 25px rgba(160, 108, 247, 0.3);
+}
+
+.coll-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.coll-info {
+  padding: 18px;
+}
+
+.coll-info h3 {
+  font-size: 20px;
+}
+
+.coll-info p {
+  margin-top: 6px;
+  font-size: 13px;
+  color: #c7c7c7;
+}
