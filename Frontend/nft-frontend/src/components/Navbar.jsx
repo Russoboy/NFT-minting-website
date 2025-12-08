@@ -14,7 +14,7 @@ const  Navbar = () =>{
         <li>Marketplace</li>
         <li>Mint NFT</li>
         <li>Collections</li>
-        <li>About/Docs</li>
+        <li>Contacts</li>
          {/* <button>Connect Wallet</button> */}
       </ul>
      
