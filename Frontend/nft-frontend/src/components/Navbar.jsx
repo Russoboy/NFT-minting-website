@@ -4,23 +4,20 @@ import React from "react";
 const  Navbar = () =>{
      
 
-
-
-
     return(
     <nav className="Navbar">
       <ul>
+        <h1 className="NFT-brand-name">OpulentMint</h1>
         <li>Home</li>
         <li>Marketplace</li>
-        <li>Mint NFT</li>
+        <li>Mint</li>
         <li>Collections</li>
         <li>Contacts</li>
-         {/* <button>Connect Wallet</button> */}
+       
       </ul>
-     
+      {/* <button>Connect Wallet</button> */}
     </nav>
     )
 }
-
 
 export default  Navbar;
