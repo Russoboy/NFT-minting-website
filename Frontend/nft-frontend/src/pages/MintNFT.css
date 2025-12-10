@@ -1,0 +1,89 @@
+.mint-section {
+  padding: 80px 6%;
+  background: #0c0c14;
+  color: #fff;
+}
+
+.mint-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.mint-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.mint-desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #bbb;
+}
+
+.mint-controls {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.wallet-btn {
+  padding: 12px 28px;
+  background: #7b4bff;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wallet-btn:hover {
+  background: #6437d9;
+}
+
+.wallet-address {
+  color: #a08cff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mint-controls input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #2a2a35;
+  background: #14141c;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.mint-controls input:focus {
+  border-color: #7b4bff;
+}
+
+.mint-btn {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #5f2eea, #a06cd5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mint-btn:hover {
+  opacity: 0.85;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #a0a0a0;
+}
